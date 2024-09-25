@@ -1,6 +1,18 @@
 {
-  "description": "",
+  "description": "Projeto com API meteorológica (https://openweathermap.org/api) realizado no curso Front-end em React da Ada com o professor Walisson Silva. Onde é possível consultar a temperatura atual de qualquer cidade.",
   "devDependencies": {
     "typescript": "^5.3.2"
+  },
+  "name": "condicaodotempo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@playwright/test": "^1.47.2"
   }
 }
