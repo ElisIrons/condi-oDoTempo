@@ -558,3 +558,59 @@ footer a {
       #eeeeee 90px 35px;
   }
 }
+
+@media screen and (max-width: 1250px) {
+  main {
+    padding: 1rem;
+    margin: 1rem;
+  }
+
+  main > h1 {
+    font-size: 2.3rem;
+  }
+
+  main #search-form input,
+  main #search-form button {
+    height: 35px;
+  }
+
+  .container {
+    transform: scale(0.7);
+    margin-top: 1.5rem;
+  }
+
+  .sunny,
+  .cloudy,
+  .stormy {
+    margin-top: -30rem;
+  }
+
+  .sunny {
+    left: 50%;
+  }
+
+  .cloudy {
+    left: 35%;
+  }
+
+  .stormy {
+    left: 65%;
+  }
+
+  .rainy,
+  .rainbow,
+  .starry {
+    margin-top: 10rem;
+  }
+
+  footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    font-size: 5px;
+    margin-top: 1rem;
+    padding: 1rem;
+    background-color: #245553;
+  }
+}
