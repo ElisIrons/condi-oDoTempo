@@ -608,7 +608,11 @@ footer a {
   .starry {
     margin-top: 15rem;
   }
-
+  
+  .snowy {
+    display: none;
+  }
+  
   footer {
     position: absolute;
     bottom: 0;
